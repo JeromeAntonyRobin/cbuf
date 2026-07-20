@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+
+set -e
+
+echo "=== Installing cbuf (Clipboard Buffer) ==="
+
+# Check dependencies
+DEPENDENCIES=(python3 xclip xdotool)
+for dep in "${DEPENDENCIES[@]}"; do
+  if ! command -v "$dep" &>/dev/null; then
+    echo "[-] Missing dependency: $dep. Installing..."
+    sudo apt install -y "$dep"
+  fi
+done
+
+# Install greenclip binary if missing
+if ! command -v greenclip &>/dev/null; then
+  echo "[+] Installing greenclip daemon..."
+  sudo wget -O /usr/local/bin/greenclip https://github.com/erebe/greenclip/releases/download/v4.2/greenclip
+  sudo chmod +x /usr/local/bin/greenclip
+fi
+
+# Link executable to local bin
+mkdir -p "$HOME/bin"
+cp ./bin/cbuf "$HOME/bin/cbuf"
+chmod +x "$HOME/bin/cbuf"
+
+echo "[+] Installation complete! Link $HOME/bin/cbuf to your hotkey launcher."
