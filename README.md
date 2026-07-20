@@ -45,7 +45,7 @@ ________________/\\\________________/\\\_____________________________/\\\\\_
 
 `cbuf` is a keyboard-driven clipboard buffer designed for fast terminal workflows.
 
-Instead of opening a vertical history menu or fuzzy finder, `cbuf` presents clipboard history as a paginated 2×2 card grid at the top of your screen. Every visible item is directly selectable using the number keys, minimizing context switching and keeping your hands on the keyboard.
+Instead of opening a vertical history menu or fuzzy finder, `cbuf` presents clipboard history as a paginated clipboard panel at the top of your screen. Every visible item is directly selectable using the number keys, minimizing context switching and keeping your hands on the keyboard.
 
 <p align="center">
 <img src="assets/preview.png" width="900">
