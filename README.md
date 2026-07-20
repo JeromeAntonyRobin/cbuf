@@ -102,6 +102,10 @@ chmod +x install.sh
 <p align="center">
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2f06ae8b-0959-4c49-95b0-2c0b091c2f72" />
 </p>
+<p align="center">
+<img width="1920" height="885" alt="image" src="https://github.com/user-attachments/assets/fb0be580-b29d-46fa-b3cd-665860517c37" />
+</p>
+
 
 ---
 
