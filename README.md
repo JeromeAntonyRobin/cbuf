@@ -107,6 +107,17 @@ chmod +x install.sh
 </p>
 
 
+## Directory Structure
+```
+.
+├── alacritty-clipboard.py   # Python Curses Clipboard Script
+├── install.sh               # Installation Script
+├── LICENSE                  # License, duh
+├── README.md                # README
+└── uninstall.sh             # uninstallation Script
+
+
+```
 ---
 
 ## 📄 License
