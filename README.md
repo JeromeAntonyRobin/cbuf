@@ -51,19 +51,19 @@ Instead of opening a vertical history menu or fuzzy finder, `cbuf` presents clip
 
 </p>
 
-## ✨ Features
+##  Features
 
-- ⚡ Keyboard-first interaction
-- 🗂️ 2×2 paginated clipboard grid
-- 🔢 Direct selection using `1-4`
-- ⌨️ Vim navigation (`h` / `l`)
-- 📋 Automatic clipboard injection
-- 🚀 Lightweight Python + curses implementation
-- 🪟 Designed for floating terminal workflows
+-  Keyboard-first interaction
+-  4×1 paginated clipboard 
+-  Direct selection using `1-4`
+-  Vim navigation (`h` / `l`)
+-  Automatic clipboard injection
+-  Lightweight Python + curses implementation
+-  Designed for floating terminal workflows
 
 ---
 
-## ⚡ Requirements
+##  Requirements
 
 - Linux (X11)
 - Python 3
@@ -74,7 +74,7 @@ Instead of opening a vertical history menu or fuzzy finder, `cbuf` presents clip
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/jeromeantonyrobin/cbuf.git
@@ -86,7 +86,7 @@ chmod +x install.sh
 
 ---
 
-## ⌨️ Controls
+##  Controls
 
 | Key | Action |
 |-----|--------|
@@ -97,7 +97,7 @@ chmod +x install.sh
 
 ---
 
-## 🖼️ Preview
+##  Preview
 
 <p align="center">
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2f06ae8b-0959-4c49-95b0-2c0b091c2f72" />
